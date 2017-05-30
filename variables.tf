@@ -1,4 +1,4 @@
-variable "cluster_name_id" {}
+variable "cluster_name_id" {
   default = "Foobernetes"
 }
 variable "org_guid" {}
