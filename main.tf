@@ -1,4 +1,4 @@
-resource "ibmcloud_cs_cluster" "foobernetes" {
+resource "ibmcloud_cs_cluster" "foobernetes2" {
     name = "foobernetes"
     datacenter = "dal10"
     machine_type = "free"
