@@ -1,5 +1,5 @@
 resource "ibmcloud_cs_cluster" "foobernetes2" {
-    name = "foobernetes"
+    name = "foobernetes2"
     datacenter = "dal10"
     machine_type = "free"
     isolation = "public"
