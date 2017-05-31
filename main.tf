@@ -10,5 +10,4 @@ resource "ibmcloud_cs_cluster" "foobernetes2" {
     org_guid = "${var.org_guid}"
     space_guid = "${var.space_guid}"
     account_guid = "${var.account_guid}"
-    wait_time_minutes = "1"
 }
