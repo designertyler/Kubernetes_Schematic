@@ -9,5 +9,5 @@ resource "ibmcloud_cs_cluster" "foobernetes" {
     workers = [{name="worker1",  action="add"},]
     org_guid = "${var.org_guid}"
     space_guid = "${var.space_guid}"
-    account_guid = "${var.account_guid"
+    account_guid = "${var.account_guid}"
 }
