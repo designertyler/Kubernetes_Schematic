@@ -1,4 +1,4 @@
-provider "ibm" {
+provider "ibmcloud" {
   bluemix_api_key = "${var.bxapikey}"
 }
 
