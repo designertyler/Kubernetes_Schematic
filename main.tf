@@ -25,7 +25,7 @@ resource "ibm_container_cluster" "foobernetes" {
     url = "https://hooks.slack.com/services/yt7rebjhgh2r4rd44fjk"
   }]
 
-  org_guid     = "test"
-  space_guid   = "test_space"
-  account_guid = "test_acc"
+  org_guid     = ""
+  space_guid   = ""
+  account_guid = ""
 }
