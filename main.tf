@@ -1,3 +1,9 @@
+provider "ibm" {
+  bluemix_api_key = "${var.bxapikey}"
+  softlayer_username = "${var.slusername}"
+  softlayer_api_key = "${var.slapikey}"
+}
+
 resource "ibmcloud_cs_cluster" "foobernetes" {
     name = "foobernetes"
     datacenter = "dal10"
