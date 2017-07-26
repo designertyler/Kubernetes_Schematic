@@ -8,3 +8,9 @@ resource "ibmcloud_cs_cluster" "foobernetes" {
     space_guid = "${var.space_guid}"
     account_guid = "${var.account_guid}"
 }
+
+provider "ibm" {
+  bluemix_api_key = "${var.bxapikey}"
+  softlayer_username = "${var.slusername}"
+  softlayer_api_key = "${var.slapikey}"
+}
