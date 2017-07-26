@@ -1,8 +1,8 @@
-provider "ibmcloud" {
+provider "ibm" {
   bluemix_api_key = "${var.bxapikey}"
 }
 
-resource "ibmcloud_cs_cluster" "foobernetes" {
+resource "ibm_container_cluster" "foobernetes" {
     name = "foobernetes"
     datacenter = "dal10"
     machine_type = "free"
