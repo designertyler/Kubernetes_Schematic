@@ -25,7 +25,7 @@ resource "ibm_container_cluster" "foobernetes" {
     url = "https://hooks.slack.com/services/yt7rebjhgh2r4rd44fjk"
   }]
 
-  org_guid     = "trtate_org"
-  space_guid   = "Schematics"
-  account_guid = "a2e167d8d70f11da608c419b3dfae718"
+  org_guid     = "${var.trtate_org}"
+  space_guid   = "${var.space_guid}"
+  account_guid = "${var.account_guid}"
 }
