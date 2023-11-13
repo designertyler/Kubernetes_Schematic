@@ -10,7 +10,7 @@ A test configuration
 **variables used**
 name = "foobernetes"
 
-datacenter = "dal10"
+datacenter = "111111"
 
 machine_type = "free"
 
